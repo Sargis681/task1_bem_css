@@ -723,7 +723,7 @@ body {
 
 @media (max-width:480px) {
     .block__text {
-        font-size: 5px !important;
+        font-size: 9px !important;
     }
 }
 
@@ -738,6 +738,9 @@ body {
 
     .header__icon {
         display: none;
+    }
+    .block__text {
+        font-size: 13px !important;
     }
 }
 
