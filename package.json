@@ -1,0 +1,24 @@
+{
+  "name": "task1",
+  "version": "1.0.0",
+  "description": "modify task1-task2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sargis681/task1_bem_css.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sargis681/task1_bem_css/issues"
+  },
+  "homepage": "https://github.com/Sargis681/task1_bem_css#readme",
+  "dependencies": {
+    "node-sass": "^9.0.0"
+  }
+  
+}
