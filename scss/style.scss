@@ -368,7 +368,9 @@ body {
             font-size: 16px;
             line-height: 24px;
             color: #595e64;
+            
           }
+          
         }
       }
     }
@@ -378,6 +380,7 @@ body {
     height: 800px;
     align-items: center;
     display: flex;
+    
 
     .container {
       display: flex;
@@ -632,8 +635,9 @@ body {
 
   body .faster .container .section .faster__text {
     font-size: 10px !important;
-    # max-width: 60%;
+     max-width: 60%;
   }
+
 
   body .faster .container .section .button {
     height: 61px;
@@ -826,7 +830,19 @@ body {
   body .faster .container .section .button{
     width:200px
   }
+  .body .brands__images{
+  display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    align-items: center;
 }
+}
+
 
 @media (max-width: 480px) {
   body .works__container .block__left img {

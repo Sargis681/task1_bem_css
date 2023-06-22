@@ -584,9 +584,24 @@ body {
   body .header__icon {
     display: none; }
   .block__text {
-    font-size: 13px !important; } }
+    font-size: 13px !important; }
+  body .faster .container .section .button {
+    width: 200px; }
+  .body .brands__images {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    align-items: center; } }
 
 @media (max-width: 480px) {
   body .works__container .block__left img {
     width: 130px;
-    height: 130px !important; } }
+    height: 130px !important; }
+  .body .faster .container .section .faster__text {
+    max-width: 1000px;
+    text-align: center; } }
